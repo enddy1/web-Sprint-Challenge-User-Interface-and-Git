@@ -144,3 +144,157 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    Display: flex;
+    flex-direction: column;
+ 
+}
+
+#imgnav{
+  margin-left: 300px;
+  position:absolute;
+  margin-top: 20px;
+    
+
+}
+#navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+
+    
+
+nav a{
+    color: black;
+}
+#picture{
+    width: 800px;
+    
+}
+#imgcss{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 30px;
+}
+
+.boxes .box:first-child{
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background-color: coral;
+
+}
+.boxes .box:nth-child(5){
+    background-color: crimson;
+
+}
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+
+}
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+
+}
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+
+}
+.boxes .box:nth-child(9){
+    background-color: indigo;
+
+}
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
+
+}
+#cont{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 350px;
+    margin-left: 350px;
+    
+    }
+        
+    
+    #secondpage{
+        border-bottom: 1px dashed black;
+    border-bottom: 1px dotted black;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1rem;
+
+    }
+    
+    .middlepage{
+         display: flex;
+        flex-direction: column;
+       margin-top: 10px;
+        width: 500px;
+         padding: 0 1%;
+        padding-bottom: 20px; 
+        border-bottom: 1px dotted black;
+        margin-bottom: 10px;;
+     }
+        
+
+
+  #hello{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 350px;
+    margin-left: 350px;
+
+    
+  }  
+
+  .thirdpage{
+    display: flex;
+    flex-direction: column;
+border-bottom: 1px dotted black;
+   margin-bottom: 10px;
+    width: 500px;
+     padding: 0 1%;
+    padding-bottom: 20px; 
+
+  }
+  .button{
+      width: 150px;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 10px;
+    
+  }
+
+  #last{
+   height: 100px;
+   margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+  }
+
+  #empire{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+  }
